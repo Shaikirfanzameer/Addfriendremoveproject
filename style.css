@@ -1,0 +1,58 @@
+#card {
+  height: 400px;
+  width: 300px;
+  background-color: white;
+  border-radius: 10px;
+  padding: 60px;
+  margin: 40px;
+ 
+  
+  
+}
+body {
+  background-color: cornflowerblue;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+#card img {
+  height: 50%;
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+  object-position: center;
+}
+#card h1 {
+  font-size: x-large;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 800px;
+  text-align: center;
+}
+#card h5{
+  font-size: 25px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 800px;
+  text-align: center;
+  align-items: center;
+  color:red;
+}
+
+  
+#card  button{
+  background-color: rgb(221, 234, 209);
+  font-size: medium;
+  color: black;
+  border-radius: 10px;
+  border-style: none;
+  padding: 20px;
+  margin: 30px;
+  margin-bottom: 60px;
+  cursor: pointer; 
+}
